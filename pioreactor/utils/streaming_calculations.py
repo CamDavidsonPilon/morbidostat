@@ -306,8 +306,10 @@ class ExtendedKalmanFilter:
 
 
 class PID:
+    """
+    TODO
 
-    # used in dosing_control classes
+    """
 
     def __init__(
         self,
@@ -316,7 +318,7 @@ class PID:
         Kd,
         K0=0,
         setpoint=None,
-        output_limits=None,
+        output_limits=(None, None),
         sample_time=None,
         unit=None,
         experiment=None,
